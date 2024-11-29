@@ -23,7 +23,7 @@ function HomeScreen({ navigation }) {
         <ToDoForm addTask={addTask} />
         <Button
           title="Go to About"
-          color="#d63384" // Pink button
+          color="#d63384" 
           onPress={() => navigation.navigate('About')}
         />
       </View>
@@ -40,9 +40,9 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   button: {
-    backgroundColor: '#d63384', // Pink button color
-    color: '#fff', // White text for contrast
-    borderRadius: 10, // Rounded button
+    backgroundColor: '#d63384', 
+    color: '#fff', 
+    borderRadius: 10, 
     padding: 10,
     marginTop: 20,
     },
