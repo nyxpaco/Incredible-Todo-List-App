@@ -1,6 +1,6 @@
 import { View } from 'react-native'
 import React from 'react'
-import App from '../components/App'
+import App from '../src/App'
 
 const index = () => {
   return (
